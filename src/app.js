@@ -4,6 +4,7 @@ const port = 3030;
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true})); // evita problemas con url Bodyparcer
+app.use(express.static('src/public'));
 
 const mainController = require("./controllers/mainController");
 

@@ -1,0 +1,41 @@
+body{
+    background: rgb(21,30,33);
+    background: linear-gradient(190deg, rgba(21,30,33,1) 0%, rgba(15,61,77,1) 50%, rgba(85,125,121,1) 100%);
+}
+.mainConteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contentBox{
+    background-color: #434451;
+    width: 70%;
+    height: 100vh;
+}
+.portTittles{
+    background-color: #121212;
+    height: 70px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.portTittles .portName{
+    color: #dafffb;
+}
+
+.portTittles .portSubtittle{
+    color: #dafffb; 
+}
+
+.portTittles .portImage{
+    width: 4rem;
+}
+
+.boxesConteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
